@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PixelForge - Portfolio</title>
+    <meta name="description" content="Our portfolio of high-performance web development projects">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body class="loading">
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <h1>PixelForge</h1>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <div class="loading-text">Loading Portfolio...</div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="logo">
+                    <h2>PixelForge</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+                    <li><a href="index.html#services" class="nav-link">Services</a></li>
+                    <li><a href="index.html#about" class="nav-link">About</a></li>
+                    <li><a href="index.html#contact" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Portfolio Content -->
+    <main class="portfolio-main">
+        <div class="particles-js" id="particles"></div>
+        
+        <!-- Portfolio Hero -->
+        <section class="portfolio-hero">
+            <div class="hero-overlay">
+                <div class="hero-content">
+                    <h1>OUR PORTFOLIO</h1>
+                    <p>Crafting Digital Excellence</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Grid -->
+        <section class="portfolio-section">
+            <div class="container">
+                <div class="portfolio-grid">
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>TechStart</h3>
+                                <p>Startup Landing Page</p>
+                                <div class="tech-stack">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="ecommerce">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>EcoStore</h3>
+                                <p>E-commerce Platform</p>
+                                <div class="tech-stack">
+                                    <span>Vue.js</span>
+                                    <span>Laravel</span>
+                                    <span>MySQL</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>FinanceHub</h3>
+                                <p>Financial Dashboard</p>
+                                <div class="tech-stack">
+                                    <span>Angular</span>
+                                    <span>Python</span>
+                                    <span>PostgreSQL</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>HealthPlus</h3>
+                                <p>Healthcare Portal</p>
+                                <div class="tech-stack">
+                                    <span>React</span>
+                                    <span>Express.js</span>
+                                    <span>Redis</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="education">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>EduLearn</h3>
+                                <p>Education Platform</p>
+                                <div class="tech-stack">
+                                    <span>Next.js</span>
+                                    <span>Django</span>
+                                    <span>AWS</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="ecommerce">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>FoodDelight</h3>
+                                <p>Restaurant Website</p>
+                                <div class="tech-stack">
+                                    <span>HTML5</span>
+                                    <span>CSS3</span>
+                                    <span>JavaScript</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="web">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>SportZone</h3>
+                                <p>Sports E-commerce</p>
+                                <div class="tech-stack">
+                                    <span>Shopify</span>
+                                    <span>React</span>
+                                    <span>GraphQL</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-item" data-category="education">
+                        <div class="portfolio-image">
+                            <div class="image-overlay"></div>
+                            <div class="portfolio-content">
+                                <h3>CodeAcademy</h3>
+                                <p>Online Learning Platform</p>
+                                <div class="tech-stack">
+                                    <span>Vue.js</span>
+                                    <span>Node.js</span>
+                                    <span>MongoDB</span>
+                                </div>
+                                <a href="#" class="view-project">View Project <i class="fas fa-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div class="project-modal" id="projectModal">
+        <div class="modal-content">
+            <div class="modal-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="modal-body">
+                <div class="project-details">
+                    <h2 id="projectTitle">Project Title</h2>
+                    <p id="projectDescription">Project description goes here...</p>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <h4>Technologies Used</h4>
+                            <div class="tech-tags" id="techTags"></div>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="#" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> View Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
